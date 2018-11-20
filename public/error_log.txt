@@ -1,0 +1,93 @@
+[01-Nov-2016 04:10:41 Europe/Paris] PHP Notice:  Undefined index: usuarioObj in C:\wamp\www\mvc-php\gui\layoutTOpo.php on line 21
+[01-Nov-2016 04:10:41 Europe/Paris] PHP Stack trace:
+[01-Nov-2016 04:10:41 Europe/Paris] PHP   1. {main}() C:\wamp\www\mvc-php\public\index.php:0
+[01-Nov-2016 04:10:41 Europe/Paris] PHP   2. TApp->executar() C:\wamp\www\mvc-php\public\index.php:37
+[01-Nov-2016 04:10:41 Europe/Paris] PHP   3. ControleUsuario->listaDeUsuario() C:\wamp\www\mvc-php\libs\TApp.php:65
+[01-Nov-2016 04:10:41 Europe/Paris] PHP   4. TGui->renderizar() C:\wamp\www\mvc-php\to\ControleUsuario.php:15
+[01-Nov-2016 04:10:41 Europe/Paris] PHP   5. include_once() C:\wamp\www\mvc-php\libs\TGui.php:19
+[01-Nov-2016 04:10:41 Europe/Paris] PHP Notice:  Undefined variable: _SESSION in C:\wamp\www\mvc-php\gui\layoutTOpo.php on line 21
+[01-Nov-2016 04:10:41 Europe/Paris] PHP Stack trace:
+[01-Nov-2016 04:10:41 Europe/Paris] PHP   1. {main}() C:\wamp\www\mvc-php\public\index.php:0
+[01-Nov-2016 04:10:41 Europe/Paris] PHP   2. TApp->executar() C:\wamp\www\mvc-php\public\index.php:37
+[01-Nov-2016 04:10:41 Europe/Paris] PHP   3. Login->autenticar() C:\wamp\www\mvc-php\libs\TApp.php:63
+[01-Nov-2016 04:10:41 Europe/Paris] PHP   4. TGui->renderizar() C:\wamp\www\mvc-php\to\Login.php:18
+[01-Nov-2016 04:10:41 Europe/Paris] PHP   5. include_once() C:\wamp\www\mvc-php\libs\TGui.php:19
+[01-Nov-2016 04:11:43 Europe/Paris] PHP Notice:  Undefined index: usuarioObj in C:\wamp\www\mvc-php\gui\layoutTOpo.php on line 21
+[01-Nov-2016 04:11:43 Europe/Paris] PHP Stack trace:
+[01-Nov-2016 04:11:43 Europe/Paris] PHP   1. {main}() C:\wamp\www\mvc-php\public\index.php:0
+[01-Nov-2016 04:11:43 Europe/Paris] PHP   2. TApp->executar() C:\wamp\www\mvc-php\public\index.php:37
+[01-Nov-2016 04:11:43 Europe/Paris] PHP   3. Login->autenticar() C:\wamp\www\mvc-php\libs\TApp.php:63
+[01-Nov-2016 04:11:43 Europe/Paris] PHP   4. TGui->renderizar() C:\wamp\www\mvc-php\to\Login.php:18
+[01-Nov-2016 04:11:43 Europe/Paris] PHP   5. include_once() C:\wamp\www\mvc-php\libs\TGui.php:19
+[01-Nov-2016 04:11:58 Europe/Paris] PHP Notice:  Undefined index: usuarioObj in C:\wamp\www\mvc-php\gui\layoutTOpo.php on line 19
+[01-Nov-2016 04:11:58 Europe/Paris] PHP Stack trace:
+[01-Nov-2016 04:11:58 Europe/Paris] PHP   1. {main}() C:\wamp\www\mvc-php\public\index.php:0
+[01-Nov-2016 04:11:58 Europe/Paris] PHP   2. TApp->executar() C:\wamp\www\mvc-php\public\index.php:37
+[01-Nov-2016 04:11:58 Europe/Paris] PHP   3. Login->autenticar() C:\wamp\www\mvc-php\libs\TApp.php:63
+[01-Nov-2016 04:11:58 Europe/Paris] PHP   4. TGui->renderizar() C:\wamp\www\mvc-php\to\Login.php:18
+[01-Nov-2016 04:11:58 Europe/Paris] PHP   5. include_once() C:\wamp\www\mvc-php\libs\TGui.php:19
+[17-Oct-2018 01:18:32 UTC] PHP Fatal error:  Using $this when not in object context in C:\wamp64\www\video-aula-php-mvc\gui\listaDeEmpresa.php on line 18
+[17-Oct-2018 01:18:32 UTC] PHP Stack trace:
+[17-Oct-2018 01:18:32 UTC] PHP   1. {main}() C:\wamp64\www\video-aula-php-mvc\public\index.php:0
+[17-Oct-2018 01:18:32 UTC] PHP   2. TApp->executar() C:\wamp64\www\video-aula-php-mvc\public\index.php:37
+[17-Oct-2018 01:18:32 UTC] PHP   3. class_exists() C:\wamp64\www\video-aula-php-mvc\libs\TApp.php:52
+[17-Oct-2018 01:18:32 UTC] PHP   4. __autoload() C:\wamp64\www\video-aula-php-mvc\libs\TApp.php:52
+[17-Oct-2018 01:18:32 UTC] PHP   5. require_once() C:\wamp64\www\video-aula-php-mvc\public\index.php:26
+[17-Oct-2018 01:31:16 UTC] PHP Notice:  Undefined variable: empresa in C:\wamp64\www\video-aula-php-mvc\gui\formularioEmpresa.php on line 8
+[17-Oct-2018 01:31:16 UTC] PHP Stack trace:
+[17-Oct-2018 01:31:16 UTC] PHP   1. {main}() C:\wamp64\www\video-aula-php-mvc\public\index.php:0
+[17-Oct-2018 01:31:16 UTC] PHP   2. TApp->executar() C:\wamp64\www\video-aula-php-mvc\public\index.php:37
+[17-Oct-2018 01:31:16 UTC] PHP   3. ControleEmpresa->novo() C:\wamp64\www\video-aula-php-mvc\libs\TApp.php:63
+[17-Oct-2018 01:31:16 UTC] PHP   4. TGui->renderizar() C:\wamp64\www\video-aula-php-mvc\to\ControleEmpresa.php:31
+[17-Oct-2018 01:31:16 UTC] PHP   5. include_once() C:\wamp64\www\video-aula-php-mvc\libs\TGui.php:21
+[17-Oct-2018 01:31:16 UTC] PHP Fatal error:  Call to a member function getId() on array in C:\wamp64\www\video-aula-php-mvc\gui\formularioEmpresa.php on line 11
+[17-Oct-2018 01:31:16 UTC] PHP Stack trace:
+[17-Oct-2018 01:31:16 UTC] PHP   1. {main}() C:\wamp64\www\video-aula-php-mvc\public\index.php:0
+[17-Oct-2018 01:31:16 UTC] PHP   2. TApp->executar() C:\wamp64\www\video-aula-php-mvc\public\index.php:37
+[17-Oct-2018 01:31:16 UTC] PHP   3. ControleEmpresa->novo() C:\wamp64\www\video-aula-php-mvc\libs\TApp.php:63
+[17-Oct-2018 01:31:16 UTC] PHP   4. TGui->renderizar() C:\wamp64\www\video-aula-php-mvc\to\ControleEmpresa.php:31
+[17-Oct-2018 01:31:16 UTC] PHP   5. include_once() C:\wamp64\www\video-aula-php-mvc\libs\TGui.php:21
+[17-Oct-2018 01:32:10 UTC] PHP Notice:  Undefined variable: empresa in C:\wamp64\www\video-aula-php-mvc\gui\formularioEmpresa.php on line 8
+[17-Oct-2018 01:32:10 UTC] PHP Stack trace:
+[17-Oct-2018 01:32:10 UTC] PHP   1. {main}() C:\wamp64\www\video-aula-php-mvc\public\index.php:0
+[17-Oct-2018 01:32:10 UTC] PHP   2. TApp->executar() C:\wamp64\www\video-aula-php-mvc\public\index.php:37
+[17-Oct-2018 01:32:10 UTC] PHP   3. ControleEmpresa->novo() C:\wamp64\www\video-aula-php-mvc\libs\TApp.php:63
+[17-Oct-2018 01:32:10 UTC] PHP   4. TGui->renderizar() C:\wamp64\www\video-aula-php-mvc\to\ControleEmpresa.php:31
+[17-Oct-2018 01:32:10 UTC] PHP   5. include_once() C:\wamp64\www\video-aula-php-mvc\libs\TGui.php:21
+[17-Oct-2018 01:32:10 UTC] PHP Fatal error:  Call to a member function getId() on array in C:\wamp64\www\video-aula-php-mvc\gui\formularioEmpresa.php on line 11
+[17-Oct-2018 01:32:10 UTC] PHP Stack trace:
+[17-Oct-2018 01:32:10 UTC] PHP   1. {main}() C:\wamp64\www\video-aula-php-mvc\public\index.php:0
+[17-Oct-2018 01:32:10 UTC] PHP   2. TApp->executar() C:\wamp64\www\video-aula-php-mvc\public\index.php:37
+[17-Oct-2018 01:32:10 UTC] PHP   3. ControleEmpresa->novo() C:\wamp64\www\video-aula-php-mvc\libs\TApp.php:63
+[17-Oct-2018 01:32:10 UTC] PHP   4. TGui->renderizar() C:\wamp64\www\video-aula-php-mvc\to\ControleEmpresa.php:31
+[17-Oct-2018 01:32:10 UTC] PHP   5. include_once() C:\wamp64\www\video-aula-php-mvc\libs\TGui.php:21
+[17-Oct-2018 01:34:29 UTC] PHP Notice:  Undefined variable: empresa in C:\wamp64\www\video-aula-php-mvc\gui\formularioEmpresa.php on line 8
+[17-Oct-2018 01:34:29 UTC] PHP Stack trace:
+[17-Oct-2018 01:34:29 UTC] PHP   1. {main}() C:\wamp64\www\video-aula-php-mvc\public\index.php:0
+[17-Oct-2018 01:34:29 UTC] PHP   2. TApp->executar() C:\wamp64\www\video-aula-php-mvc\public\index.php:37
+[17-Oct-2018 01:34:29 UTC] PHP   3. ControleEmpresa->novo() C:\wamp64\www\video-aula-php-mvc\libs\TApp.php:63
+[17-Oct-2018 01:34:29 UTC] PHP   4. TGui->renderizar() C:\wamp64\www\video-aula-php-mvc\to\ControleEmpresa.php:31
+[17-Oct-2018 01:34:29 UTC] PHP   5. include_once() C:\wamp64\www\video-aula-php-mvc\libs\TGui.php:21
+[17-Oct-2018 01:34:29 UTC] PHP Fatal error:  Call to a member function getId() on array in C:\wamp64\www\video-aula-php-mvc\gui\formularioEmpresa.php on line 11
+[17-Oct-2018 01:34:29 UTC] PHP Stack trace:
+[17-Oct-2018 01:34:29 UTC] PHP   1. {main}() C:\wamp64\www\video-aula-php-mvc\public\index.php:0
+[17-Oct-2018 01:34:29 UTC] PHP   2. TApp->executar() C:\wamp64\www\video-aula-php-mvc\public\index.php:37
+[17-Oct-2018 01:34:29 UTC] PHP   3. ControleEmpresa->novo() C:\wamp64\www\video-aula-php-mvc\libs\TApp.php:63
+[17-Oct-2018 01:34:29 UTC] PHP   4. TGui->renderizar() C:\wamp64\www\video-aula-php-mvc\to\ControleEmpresa.php:31
+[17-Oct-2018 01:34:29 UTC] PHP   5. include_once() C:\wamp64\www\video-aula-php-mvc\libs\TGui.php:21
+[30-Oct-2018 23:12:23 UTC] PHP Fatal error:  Call to undefined function salvar() in C:\wamp64\www\video-aula-php-mvc\to\ControleEmpresa.php on line 55
+[30-Oct-2018 23:12:23 UTC] PHP Stack trace:
+[30-Oct-2018 23:12:23 UTC] PHP   1. {main}() C:\wamp64\www\video-aula-php-mvc\public\index.php:0
+[30-Oct-2018 23:12:23 UTC] PHP   2. TApp->executar() C:\wamp64\www\video-aula-php-mvc\public\index.php:37
+[30-Oct-2018 23:12:23 UTC] PHP   3. ControleEmpresa->salvar() C:\wamp64\www\video-aula-php-mvc\libs\TApp.php:63
+[30-Oct-2018 23:41:54 UTC] PHP Fatal error:  Call to undefined function salvar() in C:\wamp64\www\video-aula-php-mvc\to\ControleEmpresa.php on line 55
+[30-Oct-2018 23:41:55 UTC] PHP Stack trace:
+[30-Oct-2018 23:41:55 UTC] PHP   1. {main}() C:\wamp64\www\video-aula-php-mvc\public\index.php:0
+[30-Oct-2018 23:41:55 UTC] PHP   2. TApp->executar() C:\wamp64\www\video-aula-php-mvc\public\index.php:37
+[30-Oct-2018 23:41:55 UTC] PHP   3. ControleEmpresa->salvar() C:\wamp64\www\video-aula-php-mvc\libs\TApp.php:63
+[31-Oct-2018 00:26:06 UTC] PHP Parse error:  syntax error, unexpected 'endif' (T_ENDIF) in C:\wamp64\www\video-aula-php-mvc\gui\formularioUsuario.php on line 61
+[31-Oct-2018 00:26:06 UTC] PHP Stack trace:
+[31-Oct-2018 00:26:06 UTC] PHP   1. {main}() C:\wamp64\www\video-aula-php-mvc\public\index.php:0
+[31-Oct-2018 00:26:06 UTC] PHP   2. TApp->executar() C:\wamp64\www\video-aula-php-mvc\public\index.php:37
+[31-Oct-2018 00:26:06 UTC] PHP   3. ControleUsuario->editar() C:\wamp64\www\video-aula-php-mvc\libs\TApp.php:63
+[31-Oct-2018 00:26:06 UTC] PHP   4. TGui->renderizar() C:\wamp64\www\video-aula-php-mvc\to\ControleUsuario.php:25
